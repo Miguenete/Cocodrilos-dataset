@@ -1,0 +1,26 @@
+Notas
+
+1.- Descargarmos Git de la plataforma oficial
+2.- Para correrlo abrimos cmd en la ruta que queremos
+3.- Escribimos git init para iniciar un repositorio
+
+Tenemos cuatro comandos importantes:
+
+1- Inicializar repositorio local: git init (si activas ver modo oculto de Windows puedes ver la carpeta .git)
+2- "git status" nos indica en rojo aquellos que no hemos añadido al repositorio
+3- git add "nombre del archivo" añade al repositorio, se puede añadir * para que añada todo. Para corroborar esto, volver a dar git status.
+4- "git commit -m 'Se inicializó git y se cargaron los datos a la carpeta'", m de mensaje
+En mi caso me pidió poner autor porque no había pouesto mi correo, entonces vamos a ello
+*git config --global user.name "Tu nombre" 
+*git config --global user.email "tucorreo@example.com"
+*Ahora sí puedes correr el comando del paso 4
+5- git checkout te permite recuperar tu estado después de borrar o modificar un archivo a la versión de ese momento
+
+6- git push origin master
+
+
+
+
+
+Repositorio local (compu)
+Repositorio remoto (GitHub)
